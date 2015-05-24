@@ -1,0 +1,74 @@
+/*
+Theme Name: Nordic Child
+Description: A child theme of Noric Theme
+Author: Umbrella
+Version: 1.0
+Template: nordic
+*/
+
+/*@import url("../nordic/assets/css/style.css");*/
+
+body {
+	padding-bottom: 3em;
+}
+
+.footer-widgets.row > div ul li {	
+	line-height: 32px;
+}
+
+.footer-widgets.row > div ul li > a {
+  color: #8a8a8a;
+}
+
+.post-thumb .hover-state {
+  background-color: rgba(255, 94, 47, 0.8);
+}
+
+.categories-p ul li a:hover {
+	background-color: rgba(255, 94, 47, 1);
+	color: white;
+	border: 1px solid white;
+}
+
+.project-buttons li i.icon-heart:hover{color: #c00;}
+
+.categories-p ul li a, #header ul.main_menu li > a,
+.post_block h4 a, .footer-widgets.row > div ul li > a,
+.icon-heart:before{
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+}
+
+
+#header ul.main_menu li > a:hover, .post_block ul li i, .um-blog-w.widget ul li p i, 
+.post-content ul.categories li i, .post_block h4 a:hover, 
+.footer-widgets.row > div ul li > a:hover  {
+  color: rgba(255, 94, 47, 1);
+}
+
+.liked *{
+	color: rgba(255, 94, 47, 1)!important;
+}
+
+[data-cat="Latest"], [data-cat="Latest"] + .comma {display:none}
+
+.sucess-message, .textwidget, .textwidget p {
+  font-size: 13px;
+  color: #8a8a8a;
+  line-height: 27px;
+  text-align: left;
+}
+
+.footer-widgets.row > div ul li:first-child img {padding: 0 4px}
+
+@media (min-width: 992px) {
+	#header {
+		padding: 65px 54px 0;
+	}
+	.single-work {
+		padding-top: 120px;
+	}
+}
